@@ -1,0 +1,64 @@
+.container-fluid,
+footer {
+  text-align: center;
+  font-family: monospace;
+}
+/* dice  */
+.container-fluid .dice {
+  width: 25%;
+}
+@media (max-width: 1024px) {
+  .container-fluid .dice {
+    width: 35%;
+  }
+}
+@media (max-width: 480px) {
+  .container-fluid .dice {
+    width: 75%;
+  }
+}
+/* heading */
+h1 {
+  padding-top: 6.5rem;
+  text-decoration: underline 2.5px #f87575;
+  text-underline-offset: 7.5px;
+}
+/* button and number */
+.container-fluid .row .num {
+  font-size: 1.5rem;
+}
+.container-fluid .row .col .btn {
+  background-color: #f87575;
+  color: white;
+}
+.container-fluid .row .col .btn:hover {
+  background-color: #f85959;
+  color: white;
+}
+/* footer */
+footer {
+  margin-top: 7.5rem;
+  padding: 2.5%;
+  background-color: #4091cf;
+  position: fixed;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+}
+.footer-p {
+  font-size: 1rem;
+  color: white;
+}
+@media (max-width: 480px) {
+  .footer-p {
+    font-size: 0.8rem;
+    color: white;
+  }
+}
+.footer-p a {
+  color: white;
+  text-underline-offset: 5px;
+}
+.footer-p a:hover {
+  color: white;
+}
